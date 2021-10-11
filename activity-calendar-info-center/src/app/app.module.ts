@@ -10,6 +10,8 @@ import { AboutComponent } from './components/about/about.component';
 import { DownloadPageComponent } from './components/download-page/download-page.component';
 import { GettingStartedComponent } from './components/getting-started/getting-started.component';
 
+import {NgbModule} from '@ng-bootstrap/ng-bootstrap'
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,7 +24,8 @@ import { GettingStartedComponent } from './components/getting-started/getting-st
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]
