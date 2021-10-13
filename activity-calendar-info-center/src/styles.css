@@ -1,1 +1,20 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+  font-family: "Billionary", sans-serif;
+}
+
+html, body{
+    background-color: #fbf7ef;
+}
+
+@font-face {
+  font-family: "Billionary";
+  src: local("Billionary"),
+    url(./assets/misc/fonts/Billionary-Regular.otf) format("truetype");
+}
+
+@font-face {
+  font-family: "K 105 Cyrillic";
+  src: local("K 105 Cyrillic"),
+    url(./assets/misc/fonts/Kamerik-105-Cyrillic-Bold.otf) format("truetype");
+}
