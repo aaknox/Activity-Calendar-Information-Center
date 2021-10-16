@@ -14,29 +14,17 @@
             <div ngbDropdown class="d-inline-block">
                 <a class="nav-link" id="dropdownMenuButton" ngbDropdownToggle>Apps</a>
                 <div ngbDropdownMenu aria-labelledby="dropdownMenuButton">
-                    <div ngbDropdown class="d-inline-block">
-                        <a class="nav-link" id="dropdownMenuButton" ngbDropdownToggle>Activity Calendar</a>
-                        <div ngbDropdownMenu aria-labelledby="dropdownMenuButton">
-                            <button ngbDropdownItem>Intro</button>
-                            <button ngbDropdownItem>Instructions</button>
-                            <button ngbDropdownItem>FAQ</button>
-                            <button ngbDropdownItem>Roadmap</button>
-                        </div>
-                    </div>
-                    <div ngbDropdown class="d-inline-block">
-                        <a class="nav-link" id="dropdownMenuButton" ngbDropdownToggle>Meal Planner</a>
-                        <div ngbDropdownMenu aria-labelledby="dropdownMenuButton">
-                            <button ngbDropdownItem>Intro</button>
-                            <button ngbDropdownItem>Instructions</button>
-                            <button ngbDropdownItem>FAQ</button>
-                            <button ngbDropdownItem>Roadmap</button>
-                        </div>
-                    </div>
+                    <button ngbDropdownItem>Activity Calendar</button>
+                    <button ngbDropdownItem>Meal Planner</button>
                 </div>
             </div>
-            <li class="nav-item">
-            <a class="nav-link" routerLink="/about">About</a>
-            </li>
+            <div ngbDropdown class="d-inline-block">
+                <a class="nav-link" id="dropdownMenuButton" ngbDropdownToggle>About</a>
+                <div ngbDropdownMenu aria-labelledby="dropdownMenuButton">
+                    <button ngbDropdownItem>Story</button>
+                    <button ngbDropdownItem>Team</button>
+                </div>
+            </div>
             <li class="nav-item">
                 <a class="nav-link" routerLink="/download">Contact</a>
             </li>
