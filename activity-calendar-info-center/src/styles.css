@@ -1,12 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
 * {
-  font-family: "Billionary", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 html, body{
-    background-color: #fbf7ef;
     overflow: hidden;
     height: 100vh;
+    background: url(./assets/images/website/doodle-shape.png) no-repeat center center fixed; 
+    background-size: contain;
+    background-color: black;
 }
 
 @font-face {
@@ -19,4 +21,64 @@ html, body{
   font-family: "K 105 Cyrillic";
   src: local("K 105 Cyrillic"),
     url(./assets/misc/fonts/Kamerik-105-Cyrillic-Bold.otf) format("truetype");
+}
+
+@font-face {
+  font-family: "FontAwesome-Brands-400";
+  src: local("FontAwesome-Brands-400"),
+    url(./assets/misc/fonts/fa-brands-400.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "FontAwesome-Regular-400";
+  src: local("FontAwesome-Regular-400"),
+    url(./assets/misc/fonts/fa-regular-400.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "FontAwesome-Solid-900";
+  src: local("FontAwesome-Solid-900"),
+    url(./assets/misc/fonts/fa-solid-900.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "FontAwesome-WebFont";
+  src: local("FontAwesome-WebFont"),
+    url(./assets/misc/fonts/fontawesome-webfont.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "IcoMoon-Ultimate";
+  src: local("IcoMoon-Ultimate"),
+    url(./assets/misc/fonts/IcoMoon-Ultimate.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Material-Design-Iconic-Font";
+  src: local("Material-Design-Iconic-Font"),
+    url(./assets/misc/fonts/Material-Design-Iconic-Font.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "PE-Icon-7";
+  src: local("PE-Icon-7"),
+    url(./assets/misc/fonts/Pe-icon-7-stroke.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Star-Font";
+  src: local("Star-Font"),
+    url(./assets/misc/fonts/star.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Stroke-Gap";
+  src: local("Stroke-Gap"),
+    url(./assets/misc/fonts/Stroke-Gap-Icons.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "WooCommerce";
+  src: local("WooCommerce"),
+    url(./assets/misc/fonts/WooCommerce.ttf) format("truetype");
 }

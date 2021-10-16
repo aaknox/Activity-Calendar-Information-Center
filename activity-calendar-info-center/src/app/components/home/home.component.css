@@ -1,30 +1,33 @@
 .home-title{
-    font-size: 6rem;
-    margin-top: 2.5%;
+    font-size: 2.5rem;
+    font-weight: 700;
+    background: -webkit-linear-gradient(45deg, #7e50fb, #6742ce 25%, #139daf 50%, #04f6b9 75%);
+    /* FROM JACK'S SAMPLE
+    background: -webkit-linear-gradient(45deg, #eb4873, #f48418 20%, #f6cd4f 40%); */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    width: 100%;
 }
+.center {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.period{
+    background: -webkit-linear-gradient(45deg, white, white);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.logo{
+    width: 100%;
+    object-fit: scale-down;
+}
+
 .cal-icon{
     height: 450px;
     width: 450px;
     object-fit: cover;
     image-rendering: crisp-edges;
-}
-.bike-gif{
-    border-radius: 10px;
-    margin-top: 2.5%;
-}
-.month, .day{
-    font-family: 'K 105 Cyrillic', sans-serif;
-    z-index: 10;
-    color: white;
-    font-size: 3rem;
-    position: absolute;
-    margin: 10px 20px;
-}
-
-.month{
-    top: 75px;
-}
-.day{
-    bottom: 125px;
-    right: 120px;
 }
