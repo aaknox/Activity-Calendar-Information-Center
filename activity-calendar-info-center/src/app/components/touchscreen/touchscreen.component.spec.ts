@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { GettingStartedComponent } from './getting-started.component';
+import { TouchscreenComponent } from './touchscreen.component';
 
-describe('GettingStartedComponent', () => {
-  let component: GettingStartedComponent;
-  let fixture: ComponentFixture<GettingStartedComponent>;
+describe('TouchscreenComponent', () => {
+  let component: TouchscreenComponent;
+  let fixture: ComponentFixture<TouchscreenComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ GettingStartedComponent ]
+      declarations: [ TouchscreenComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(GettingStartedComponent);
+    fixture = TestBed.createComponent(TouchscreenComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

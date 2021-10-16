@@ -1,0 +1,17 @@
+*{
+    color: white;
+}
+.container-fluid{
+    margin: 0 auto;
+    padding: 0 20%;
+}
+a{
+    color: #04f6b9;
+    text-decoration: none;
+}
+a:hover{
+    color: #038060;
+}
+a:visited{
+    color: #6742ce;
+}

@@ -9,24 +9,24 @@
                 <a class="nav-link" aria-current="page" routerLink="/home">Home</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" aria-current="page" routerLink="/home">Touchscreen</a>
+                <a class="nav-link" aria-current="page" routerLink="/touchscreen">Touchscreen</a>
             </li>
             <div ngbDropdown class="d-inline-block">
                 <a class="nav-link" id="dropdownMenuButton" ngbDropdownToggle>Apps</a>
                 <div ngbDropdownMenu aria-labelledby="dropdownMenuButton">
-                    <button ngbDropdownItem>Activity Calendar</button>
-                    <button ngbDropdownItem>Meal Planner</button>
+                    <button ngbDropdownItem routerLink="/apps/activity-calendar">Activity Calendar</button>
+                    <button ngbDropdownItem routerLink="/apps/meal-planner">Meal Planner</button>
                 </div>
             </div>
             <div ngbDropdown class="d-inline-block">
                 <a class="nav-link" id="dropdownMenuButton" ngbDropdownToggle>About</a>
                 <div ngbDropdownMenu aria-labelledby="dropdownMenuButton">
-                    <button ngbDropdownItem>Story</button>
-                    <button ngbDropdownItem>Team</button>
+                    <button ngbDropdownItem routerLink="/about/story">Story</button>
+                    <button ngbDropdownItem routerLink="/about/team">Team</button>
                 </div>
             </div>
             <li class="nav-item">
-                <a class="nav-link" routerLink="/download">Contact</a>
+                <a class="nav-link" routerLink="/contact">Contact</a>
             </li>
         </ul>
         </div>

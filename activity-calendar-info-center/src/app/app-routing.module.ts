@@ -1,10 +1,12 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { AboutComponent } from './components/about/about.component';
-import { DocumentationComponent } from './components/documentation/documentation.component';
-import { DownloadPageComponent } from './components/download-page/download-page.component';
-import { GettingStartedComponent } from './components/getting-started/getting-started.component';
+import { ActivityCalAppPageComponent } from './components/activity-cal-app-page/activity-cal-app-page.component';
+import { ContactComponent } from './components/contact/contact.component';
 import { HomeComponent } from './components/home/home.component';
+import { MealPlanAppPageComponent } from './components/meal-plan-app-page/meal-plan-app-page.component';
+import { StoryComponent } from './components/story/story.component';
+import { TeamComponent } from './components/team/team.component';
+import { TouchscreenComponent } from './components/touchscreen/touchscreen.component';
 
 const routes: Routes = [
   {
@@ -12,20 +14,28 @@ const routes: Routes = [
     component: HomeComponent
   },
   {
-    path: 'about',
-    component: AboutComponent
+    path: 'touchscreen',
+    component: TouchscreenComponent
   },
   {
-    path: 'getting-started',
-    component: GettingStartedComponent
+    path: 'contact',
+    component: ContactComponent
   },
   {
-    path: 'docs',
-    component: DocumentationComponent
+    path: 'apps/activity-calendar',
+    component: ActivityCalAppPageComponent
   },
   {
-    path: 'download',
-    component: DownloadPageComponent
+    path: 'apps/meal-planner',
+    component: MealPlanAppPageComponent
+  },
+  {
+    path: 'about/story',
+    component: StoryComponent
+  },
+  {
+    path: 'about/team',
+    component: TeamComponent
   },
   {
     path: "",

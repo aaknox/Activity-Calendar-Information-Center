@@ -5,22 +5,26 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
-import { DocumentationComponent } from './components/documentation/documentation.component';
-import { AboutComponent } from './components/about/about.component';
-import { DownloadPageComponent } from './components/download-page/download-page.component';
-import { GettingStartedComponent } from './components/getting-started/getting-started.component';
 
-import {NgbModule} from '@ng-bootstrap/ng-bootstrap'
+import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
+import { TouchscreenComponent } from './components/touchscreen/touchscreen.component';
+import { ContactComponent } from './components/contact/contact.component';
+import { ActivityCalAppPageComponent } from './components/activity-cal-app-page/activity-cal-app-page.component';
+import { MealPlanAppPageComponent } from './components/meal-plan-app-page/meal-plan-app-page.component';
+import { StoryComponent } from './components/story/story.component';
+import { TeamComponent } from './components/team/team.component'
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     NavbarComponent,
-    DocumentationComponent,
-    AboutComponent,
-    DownloadPageComponent,
-    GettingStartedComponent
+    TouchscreenComponent,
+    ContactComponent,
+    ActivityCalAppPageComponent,
+    MealPlanAppPageComponent,
+    StoryComponent,
+    TeamComponent
   ],
   imports: [
     BrowserModule,
