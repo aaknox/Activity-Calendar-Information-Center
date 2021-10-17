@@ -64,19 +64,18 @@ Needed CSS Classes for form from Themeforest Theme
 .contact-form textarea:hover,
 .contact-form textarea:focus
 {
-    box-shadow: 0 0 10px 0 rgba(0,0,0,.1);
+    box-shadow: 0 0 10px 0px rgba(255,255,255,.8) !important;
 }
 .contact-form button[type=submit]
 {
     display: inline-block;
     position: relative;
     width: 100%;
+    transition: all 0.2s ease-in-out;
 }
 .contact-form button[type=submit]:before
 {
     color: #fff;
-    content: '\f1d8';
-    font-family: Fontawesome;
     font-style: normal;
     font-weight: normal;
     left: 160px;
@@ -86,9 +85,16 @@ Needed CSS Classes for form from Themeforest Theme
     right: 0;
     top: 21px;
 }
+.send-btn .fas{
+    margin-left: 5px;
+}
+.send-btn:hover,
+.send-btn:hover .fas{
+    color: black;
+}
 .contact-form button[type=submit]
 {
-    background: #16e2ef;
+    background-image: linear-gradient(to right,#00eda4,#6a7df1);
     border: 0;
     border-radius: 30px 5px 5px;
     color: #fff;
@@ -104,7 +110,8 @@ Needed CSS Classes for form from Themeforest Theme
 .contact-form button[type=submit]:hover
 {
     background-image: none;
-    background: #139daf;
+    background: #fff;
+    color: black;
 }
 
 /*----*****---- << 1.1 - Business Contact Form >> ----*****----*/
