@@ -1,0 +1,7 @@
+footer .copyright{
+    position: fixed;
+    bottom: 0;
+    font-family: 'K 105 Cyrillic', sans-serif;
+    font-size: 0.8rem;
+    color: rgba(255,255,255,.55);
+}

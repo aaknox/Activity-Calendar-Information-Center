@@ -6,9 +6,9 @@
 html, body{
     overflow: hidden;
     height: 100vh;
-    background: url(./assets/images/website/doodle-shape.png) no-repeat center center fixed; 
-    background-size: contain;
-    background-color: black;
+    background: url(./assets/images/website/doodle-shape.png) no-repeat center center fixed !important; 
+    background-size: contain !important;
+    background-color: black !important;
 }
 
 @font-face {

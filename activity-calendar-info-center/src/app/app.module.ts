@@ -12,7 +12,8 @@ import { ContactComponent } from './components/contact/contact.component';
 import { ActivityCalAppPageComponent } from './components/activity-cal-app-page/activity-cal-app-page.component';
 import { MealPlanAppPageComponent } from './components/meal-plan-app-page/meal-plan-app-page.component';
 import { StoryComponent } from './components/story/story.component';
-import { TeamComponent } from './components/team/team.component'
+import { TeamComponent } from './components/team/team.component';
+import { FooterComponent } from './components/footer/footer.component'
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { TeamComponent } from './components/team/team.component'
     ActivityCalAppPageComponent,
     MealPlanAppPageComponent,
     StoryComponent,
-    TeamComponent
+    TeamComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
