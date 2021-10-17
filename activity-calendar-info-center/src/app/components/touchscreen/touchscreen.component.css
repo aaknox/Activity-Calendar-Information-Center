@@ -15,3 +15,11 @@ a:hover{
 a:visited{
     color: #6742ce;
 }
+img{
+    object-fit: contain;
+    height: 400px;
+    width: 400px;
+}
+.temp-title{
+    font-weight: 100;
+}
